@@ -1,2 +1,10 @@
-var risposta = prompt('Come ti chiami?');
-console.log('L/utente si chiama: ' + risposta);
+var nome = prompt('Come ti chiami?');
+console.log('L/utente si chiama: ' + nome);
+var cognome = prompt(' Ciao ' + nome + '. Quale è il tuo cognome?');
+console.log('Il suo cognome è: ' + cognome);
+var colore = prompt(' Bene ' + nome + '. Quale è il tuo colore preferito?');
+console.log('Il suo colore preferito è: ' + colore);
+var eta = prompt(' Perfetto ' + nome + '. Ultima domanda, Quanti anni hai?');
+console.log('ha: ' + eta + ' anni ');
+var annoCorrente = new Date().getFullYear();
+var annoDiNascita = annoCorrente - eta;
