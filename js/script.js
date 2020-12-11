@@ -8,3 +8,5 @@ var eta = prompt(' Perfetto ' + nome + '. Ultima domanda, Quanti anni hai?');
 console.log('ha: ' + eta + ' anni ');
 var annoCorrente = new Date().getFullYear();
 var annoDiNascita = annoCorrente - eta;
+var outputContainer = document.getElementById('output');
+outputContainer.append('\nGrazie mille! la tua password è: ' + nome + cognome + colore + eta);
